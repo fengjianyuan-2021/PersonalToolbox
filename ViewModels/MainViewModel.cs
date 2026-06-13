@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+using System.Collections.ObjectModel;
+using System.Reflection;
 using PersonalToolbox.Core;
 using PersonalToolbox.Models;
 
@@ -56,6 +57,20 @@ public sealed class MainViewModel : ViewModelBase
     /// 左侧菜单点击时执行的页面跳转命令。
     /// </summary>
     public RelayCommand NavigateCommand { get; }
+
+    /// <summary>
+    /// 应用版本显示文本，从程序集信息版本读取。
+    /// </summary>
+    public string VersionText
+    {
+        get
+        {
+            var version = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion
+                ?? Assembly.GetExecutingAssembly().GetName().Version?.ToString(3)
+                ?? "未知版本";
+            return $"v{version}";
+        }
+    }
 
     /// <summary>
     /// 当前展示的页面 ViewModel，交给 ContentControl 自动套用 DataTemplate。

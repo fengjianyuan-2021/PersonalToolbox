@@ -44,6 +44,11 @@
                     <TextBlock Text="本地效率工具集合" Foreground="#AAB4C5" Margin="0,6,0,0" />
                 </StackPanel>
 
+                <StackPanel DockPanel.Dock="Bottom" Margin="0,18,0,0">
+                    <TextBlock Text="PersonalToolbox" Foreground="#AAB4C5" FontSize="12" />
+                    <TextBlock Text="{Binding VersionText}" Foreground="#D8DEE9" FontSize="12" FontWeight="SemiBold" Margin="0,3,0,0" />
+                </StackPanel>
+
                 <ItemsControl ItemsSource="{Binding Tools}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
