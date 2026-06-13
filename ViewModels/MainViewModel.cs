@@ -65,8 +65,7 @@ public sealed class MainViewModel : ViewModelBase
     {
         get
         {
-            var version = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion
-                ?? Assembly.GetExecutingAssembly().GetName().Version?.ToString(3)
+            var version = Assembly.GetExecutingAssembly().GetName().Version?.ToString(3)
                 ?? "未知版本";
             return $"v{version}";
         }
