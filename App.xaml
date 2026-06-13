@@ -1,7 +1,7 @@
-<Application x:Class="LargeFileCleaner.App"
+﻿<Application x:Class="PersonalToolbox.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:converters="clr-namespace:LargeFileCleaner.Converters"
+             xmlns:converters="clr-namespace:PersonalToolbox.Converters"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <converters:BooleanToBrushConverter x:Key="BooleanToBrushConverter" />

@@ -1,8 +1,8 @@
-using System.IO;
-using LargeFileCleaner.Models;
+﻿using System.IO;
+using PersonalToolbox.Models;
 using Microsoft.VisualBasic.FileIO;
 
-namespace LargeFileCleaner.Services;
+namespace PersonalToolbox.Services;
 
 /// <summary>
 /// 使用 Windows 回收站删除文件，降低误删后的恢复成本。

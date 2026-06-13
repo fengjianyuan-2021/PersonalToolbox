@@ -1,4 +1,4 @@
-namespace LargeFileCleaner;
+﻿namespace PersonalToolbox;
 
 /// <summary>
 /// WPF 应用入口类，承载应用级资源和启动配置。

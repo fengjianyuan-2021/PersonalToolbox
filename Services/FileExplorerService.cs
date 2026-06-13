@@ -1,8 +1,8 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.IO;
-using LargeFileCleaner.Models;
+using PersonalToolbox.Models;
 
-namespace LargeFileCleaner.Services;
+namespace PersonalToolbox.Services;
 
 /// <summary>
 /// 调用 Windows 资源管理器定位指定文件。

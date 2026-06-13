@@ -1,6 +1,6 @@
-using System.Windows.Input;
+﻿using System.Windows.Input;
 
-namespace LargeFileCleaner.Core;
+namespace PersonalToolbox.Core;
 
 /// <summary>
 /// 同步命令实现，用于把按钮等界面操作绑定到 ViewModel 方法。

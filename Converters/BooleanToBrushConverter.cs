@@ -1,8 +1,8 @@
-using System.Globalization;
+﻿using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace LargeFileCleaner.Converters;
+namespace PersonalToolbox.Converters;
 
 /// <summary>
 /// 将布尔选中状态转换为菜单按钮背景色。

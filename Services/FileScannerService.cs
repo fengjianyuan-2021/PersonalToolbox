@@ -1,7 +1,7 @@
-using System.IO;
-using LargeFileCleaner.Models;
+﻿using System.IO;
+using PersonalToolbox.Models;
 
-namespace LargeFileCleaner.Services;
+namespace PersonalToolbox.Services;
 
 /// <summary>
 /// 基于文件系统的大文件扫描服务；无法访问的目录会被跳过，不中断整体扫描。

@@ -1,4 +1,4 @@
-namespace LargeFileCleaner.Services;
+﻿namespace PersonalToolbox.Services;
 
 /// <summary>
 /// 文件夹选择服务接口，隔离 WinForms 对话框依赖。

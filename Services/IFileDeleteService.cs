@@ -1,6 +1,6 @@
-using LargeFileCleaner.Models;
+﻿using PersonalToolbox.Models;
 
-namespace LargeFileCleaner.Services;
+namespace PersonalToolbox.Services;
 
 /// <summary>
 /// 文件删除服务接口，统一封装危险操作。

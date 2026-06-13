@@ -1,6 +1,6 @@
-using LargeFileCleaner.Models;
+﻿using PersonalToolbox.Models;
 
-namespace LargeFileCleaner.Services;
+namespace PersonalToolbox.Services;
 
 /// <summary>
 /// 资源管理器服务接口，用于打开文件所在目录。

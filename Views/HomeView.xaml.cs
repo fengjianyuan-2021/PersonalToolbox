@@ -1,4 +1,4 @@
-namespace LargeFileCleaner.Views;
+﻿namespace PersonalToolbox.Views;
 
 /// <summary>
 /// 菜单首页视图，展示可跳转的工具入口。

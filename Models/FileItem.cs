@@ -1,7 +1,7 @@
-using System.Globalization;
-using LargeFileCleaner.Core;
+﻿using System.Globalization;
+using PersonalToolbox.Core;
 
-namespace LargeFileCleaner.Models;
+namespace PersonalToolbox.Models;
 
 /// <summary>
 /// 扫描得到的大文件信息，包含列表展示和删除勾选状态。

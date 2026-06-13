@@ -1,4 +1,4 @@
-namespace LargeFileCleaner.Models;
+﻿namespace PersonalToolbox.Models;
 
 /// <summary>
 /// 文件扫描进度，用于从服务层向 ViewModel 汇报当前状态。

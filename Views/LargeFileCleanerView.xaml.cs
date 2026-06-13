@@ -1,4 +1,4 @@
-namespace LargeFileCleaner.Views;
+﻿namespace PersonalToolbox.Views;
 
 /// <summary>
 /// 大文件清理视图，所有业务行为通过绑定命令交给 ViewModel。

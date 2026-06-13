@@ -1,4 +1,4 @@
-namespace LargeFileCleaner.Services;
+﻿namespace PersonalToolbox.Services;
 
 /// <summary>
 /// 消息框服务接口，便于 ViewModel 请求确认或提示。

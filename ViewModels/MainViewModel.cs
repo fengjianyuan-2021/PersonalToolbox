@@ -1,8 +1,8 @@
-using System.Collections.ObjectModel;
-using LargeFileCleaner.Core;
-using LargeFileCleaner.Models;
+﻿using System.Collections.ObjectModel;
+using PersonalToolbox.Core;
+using PersonalToolbox.Models;
 
-namespace LargeFileCleaner.ViewModels;
+namespace PersonalToolbox.ViewModels;
 
 /// <summary>
 /// 主界面 ViewModel，管理左侧菜单和右侧当前页面。

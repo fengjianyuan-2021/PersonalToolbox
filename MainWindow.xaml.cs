@@ -1,8 +1,8 @@
-using System.Windows;
-using LargeFileCleaner.Services;
-using LargeFileCleaner.ViewModels;
+﻿using System.Windows;
+using PersonalToolbox.Services;
+using PersonalToolbox.ViewModels;
 
-namespace LargeFileCleaner;
+namespace PersonalToolbox;
 
 /// <summary>
 /// 应用主窗口，只负责装载 Shell 级 ViewModel 和导航容器。

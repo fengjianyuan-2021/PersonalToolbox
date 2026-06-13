@@ -1,4 +1,4 @@
-namespace LargeFileCleaner.Models;
+﻿namespace PersonalToolbox.Models;
 
 /// <summary>
 /// 删除操作结果，包含成功文件和失败原因。

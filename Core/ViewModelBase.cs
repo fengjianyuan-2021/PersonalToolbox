@@ -1,7 +1,7 @@
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace LargeFileCleaner.Core;
+namespace PersonalToolbox.Core;
 
 /// <summary>
 /// ViewModel 基类，统一提供属性变更通知能力。

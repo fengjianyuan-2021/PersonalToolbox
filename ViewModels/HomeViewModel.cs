@@ -1,8 +1,8 @@
-using System.Windows.Input;
-using LargeFileCleaner.Core;
-using LargeFileCleaner.Models;
+﻿using System.Windows.Input;
+using PersonalToolbox.Core;
+using PersonalToolbox.Models;
 
-namespace LargeFileCleaner.ViewModels;
+namespace PersonalToolbox.ViewModels;
 
 /// <summary>
 /// 菜单首页 ViewModel，展示已经开发好的功能入口。

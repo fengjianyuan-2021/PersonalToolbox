@@ -1,6 +1,6 @@
-using System.Windows.Input;
+﻿using System.Windows.Input;
 
-namespace LargeFileCleaner.Core;
+namespace PersonalToolbox.Core;
 
 /// <summary>
 /// 异步命令实现，避免耗时操作阻塞 WPF UI 线程。

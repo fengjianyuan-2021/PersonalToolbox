@@ -1,6 +1,6 @@
-using LargeFileCleaner.Core;
+﻿using PersonalToolbox.Core;
 
-namespace LargeFileCleaner.Models;
+namespace PersonalToolbox.Models;
 
 /// <summary>
 /// 工具菜单项，描述一个可跳转的功能页面。

@@ -1,11 +1,11 @@
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Globalization;
 using System.IO;
-using LargeFileCleaner.Core;
-using LargeFileCleaner.Models;
-using LargeFileCleaner.Services;
+using PersonalToolbox.Core;
+using PersonalToolbox.Models;
+using PersonalToolbox.Services;
 
-namespace LargeFileCleaner.ViewModels;
+namespace PersonalToolbox.ViewModels;
 
 /// <summary>
 /// 大文件清理页面 ViewModel，负责扫描条件、扫描结果和删除命令。

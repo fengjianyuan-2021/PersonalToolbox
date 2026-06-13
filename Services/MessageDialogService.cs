@@ -1,6 +1,6 @@
-using System.Windows;
+﻿using System.Windows;
 
-namespace LargeFileCleaner.Services;
+namespace PersonalToolbox.Services;
 
 /// <summary>
 /// 基于 WPF MessageBox 的消息服务。

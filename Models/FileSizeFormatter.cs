@@ -1,4 +1,4 @@
-namespace LargeFileCleaner.Models;
+﻿namespace PersonalToolbox.Models;
 
 /// <summary>
 /// 文件大小格式化工具，统一列表和状态栏中的容量显示。

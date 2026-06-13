@@ -1,6 +1,6 @@
-using LargeFileCleaner.Models;
+﻿using PersonalToolbox.Models;
 
-namespace LargeFileCleaner.Services;
+namespace PersonalToolbox.Services;
 
 /// <summary>
 /// 大文件扫描服务接口，负责枚举目录并返回符合大小条件的文件。

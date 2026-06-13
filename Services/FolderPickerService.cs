@@ -1,7 +1,7 @@
-using System.IO;
+﻿using System.IO;
 using WinForms = System.Windows.Forms;
 
-namespace LargeFileCleaner.Services;
+namespace PersonalToolbox.Services;
 
 /// <summary>
 /// 使用系统文件夹选择对话框获取扫描目录。
